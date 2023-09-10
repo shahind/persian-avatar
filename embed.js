@@ -3,7 +3,7 @@ function PRAvatar_getRandomInt(max) {
 }
 
 function PRAvatar_showAvatar(width=100,height=100){
-	var id = PRAvatar_getRandomInt(5);
+	var id = PRAvatar_getRandomInt(20);
 	var avatar = document.createElement("img");
 	avatar.setAttribute('src', 'https://shahind.github.io/persian-avatar/avatars/'+id+'.jpg');
 	avatar.setAttribute('height', height);
@@ -12,7 +12,7 @@ function PRAvatar_showAvatar(width=100,height=100){
 }
 
 function PRAvatar_feedImg(avatarID){
-	var id = PRAvatar_getRandomInt(5);
+	var id = PRAvatar_getRandomInt(20);
 	var avatar = document.getElementById(avatarID);
 	avatar.setAttribute('src', 'https://shahind.github.io/persian-avatar/avatars/'+id+'.jpg');
 }
